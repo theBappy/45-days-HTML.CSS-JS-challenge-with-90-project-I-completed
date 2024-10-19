@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #211e1e;
+    display: grid;
+    padding: 20px 0;
+    place-items: center;
+}
+
+.item-container {
+    color: #000;
+    width: 300px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.cart {
+    list-style: none;
+    font-size: 25px;
+    color: #e65b00;
+    z-index: 10;
+    width: 100%;
+    position: absolute;
+    top: 20px;
+    left: 108px;
+}
+
+sub {
+    font-size: 14px;
+    position: relative;
+    color: black;
+    right: 10px
+}
+
+.item-container img {
+    width: auto;
+    display: none;
+    transform: rotate(15deg);
+    border-radius: 50%;
+}
+
+.colors {
+    margin: 10px auto;
+}
+
+.colors ul {
+    list-style: none;
+    display: flex;
+}
+
+.circle {
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+    border-radius: 50%;
+    margin: 10px;
+}
+.title {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.price {
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.pink {
+    background-color: rgb(194, 20, 107);
+}
+
+.yellow {
+    background-color: rgb(213, 213, 6);
+}
+
+.money {
+    color: #e65b00;
+}
+
+.add-to-card {
+    width: 60%;
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+    background-color: #e65b00;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.item-container img.active {
+    display: block;
+}

@@ -1,0 +1,92 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.container{
+    height: 100vh; 
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.card-item{
+    width: 300px;
+    margin: 1rem;
+    position: relative;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    background: white;
+    padding-bottom: 2rem;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    box-shadow: 0 20px 40px rgba(87,84,84,0.328);
+}
+
+.card-item:hover{
+     transform: scale(1.1);
+     -webkit-transform: scale(1.1);
+     -moz-transform: scale(1.1);
+     -ms-transform: scale(1.1);
+     -o-transform: scale(1.1);
+     box-shadow: 0 20px 40px rgba(16,14,14,0.5);
+}
+.image{
+    width: 300px;
+    height: 200px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    position:relative;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    background-size: cover;
+    background-position: center center;
+}
+.image1{
+    background-image: url(laptop2.jpg);
+}
+.image2{
+    background-image: url(laptop3.jpg);
+}
+.image3{
+    background-image: url(laptop4.jpg);
+}
+.image4{
+    background-image: url(laptop5.jpg);
+}
+.content{
+    padding: 1rem;
+}
+.title{
+    margin: 1rem 0;
+    color: #e65b00;
+    font-size: 1.4rem;
+}
+p{
+    font-size: 14px;
+    margin-bottom: 2rem;
+    font-family: sans-serif;
+    color: rgb(124,133,141);
+}
+.button{
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    padding: 10px  18px;
+    text-decoration: none;
+    background-color: #e65b00;
+}

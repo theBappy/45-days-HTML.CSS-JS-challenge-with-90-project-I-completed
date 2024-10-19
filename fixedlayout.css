@@ -1,0 +1,106 @@
+/* Fixed Layout=================================================*/
+
+body {
+    margin: 0px;
+}
+#container {
+    width: 968px;
+    margin: 0px auto;
+}
+/* Header=================================================*/
+.header {
+    background: #5c755e;
+    width: 964px;
+    border: 2px solid black;
+    height: 75px;
+    color:white;
+}
+.logo{
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* Navigation Menu=================================================*/
+.navbar {
+    background: black;
+    width: 964px;
+    border: 2px solid black;
+    height: 30px;
+    font-weight: bold;
+}
+/* Sidepanel=================================================*/
+.sidebar {
+    background-color: #9c9f84;
+    width: 176px;
+    border-left: 2px solid black;
+    float: left;
+    height: 9426px;
+}
+
+/* Content Panel=================================================*/
+.content {
+    background-color: #efe4d7;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    overflow: hidden;
+    width: 786px;
+    font-weight: bold;
+    float: right;
+    height: 9426px;
+
+}
+/* Mini Content Panel=================================================*/
+#box {
+    background-color: darkgray;
+    margin: 20px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 1em;
+    font-size: 95%;
+    color: white;
+    width: 280px;
+}
+.test {
+    display: block;
+    text-align: center;
+}
+
+/* Footer=============================================*/
+.footer {
+    background-color: rgb(173, 97, 97);
+    height: 70px;
+    border-bottom: 2px solid black;
+    width: 964px;
+    clear: both;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-bottom-right-radius: .5em;
+    border-bottom-left-radius: .5em;
+}
+
+
+
+/* Media Quries======================================*/
+@media (min-width: 400px) and  (max-width: 600px) {
+    .sidebar {
+        display: none;
+    }
+    .logo {
+        float: left;
+    }
+    #box {
+        background-color: darkred;
+    }
+}
+
+
+
+
+
+
+
+
+
+

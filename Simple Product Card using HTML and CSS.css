@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(118, 198, 230);
+}
+.card-container{
+    width:600px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+    display: flex;
+}
+.left{
+    background-image: url(perfume6.jpg);
+    background-size: cover;
+    width:50%;
+    border-radius: 15px 0px 0px 15px;
+    -webkit-border-radius: 15px 0px 0px 15px;
+    -moz-border-radius: 15px 0px 0px 15px;
+    -ms-border-radius: 15px 0px 0px 15px;
+    -o-border-radius: 15px 0px 0px 15px;
+    background-repeat: no-repeat;
+}
+.right{
+    padding: 15px;
+    background-color: khaki;
+    width: 50%;
+    border-radius: 0 15px 15px 0;;
+    -webkit-border-radius: 0 15px 15px 0;
+    -moz-border-radius: 0 15px 15px 0;
+    -ms-border-radius: 0 15px 15px 0;
+    -o-border-radius: 0 15px 15px 0;
+}
+.tag{
+    margin: 10px 0;
+    text-transform: uppercase;
+    margin-bottom: 1.3rem;
+    font-family: system-ui;
+    
+}
+.product-title{
+    font-size: 1.6rem;
+    font-weight: bold;
+    font-family: system-ui;
+    margin: 20px 0;
+}
+.product-desc{
+    line-height: 18px;
+    margin-bottom: 1.3rem;
+    font-family: sans-serif;
+    
+}
+.price{
+    display: inline;
+    font-family: system-ui;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+.strike{
+    display: inline;
+    margin-bottom: 1rem;
+    margin-left: 0.5rem;
+    font-family: system-ui;
+}
+.btn{
+    display: block;
+    margin: 1rem auto;
+    width: 90%;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-family: system-ui;
+    padding: 0.5rem;
+    transition: all 0.4s;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -ms-transition: all 0.4s;
+    -o-transition: all 0.4s;
+}
+.btn:hover{
+    background-color: #e65b00;
+    color: #fff;
+}

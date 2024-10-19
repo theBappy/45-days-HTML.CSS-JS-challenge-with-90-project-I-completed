@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui;
+}
+.table-container{
+    width: 100%;
+    display: flex;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+.table-item{
+    border: 1px solid rgb(184,171,171);
+    display: flex;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    margin: 20px 10px;
+    width: 250px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.4s;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -ms-transition: all 0.4s;
+    -o-transition: all 0.4s;
+}
+.table-item:hover{
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.164);
+}
+.table-item img{
+    width: 90%;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    margin-top: 10px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5); 
+}
+.price{
+    color:#fff;
+    background-color: #1b263c;
+    padding: 10px;
+    transition: all 0.4s    ;
+    -webkit-transition: all 0.4s    ;
+    -moz-transition: all 0.4s    ;
+    -ms-transition: all 0.4s    ;
+    -o-transition: all 0.4s    ;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    width: 100%;
+    text-align: center;
+    display: none;
+}
+.heading{
+    margin: 10px;
+}
+.plan{
+    color: #737373;
+}
+article{
+    text-align: center;
+    margin: 20px 8px;
+}
+button{
+    width: auto;
+    background-color: #1b263c;
+    padding: 10px;
+    color: #fff;
+    margin: 10px 0;
+    font-weight: 400;
+    cursor: pointer;
+    border: none;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+button:hover{
+    width: 100%;
+}
+.table-item:hover .price{
+    display: block;
+    transition: all 0.4s;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -ms-transition: all 0.4s;
+    -o-transition: all 0.4s;
+}

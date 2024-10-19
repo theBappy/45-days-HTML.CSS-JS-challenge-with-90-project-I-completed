@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+nav {
+    background-color: rgb(92, 92, 238);
+    text-align: center;
+    position: sticky;
+    padding: 10px 0;
+    color: #fff;
+    top: 0;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+.home-article {
+    padding: 1rem;
+    line-height: 22px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.content {
+    padding: 1rem;
+    height: 2000px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.parallax {
+    height: 700px;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-image: url("laptop2.jpg");
+}

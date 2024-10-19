@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+body {
+    background-color: darksalmon;
+}
+.price-heading{
+    color: white;
+    text-align: center;
+    font-size:3rem;
+    margin: 1rem 0;
+}
+.price-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.pricing-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 5rem 2rem 5rem;
+    background-color: white;
+    margin: 0 1rem;
+    overflow: hidden;
+    cursor: pointer;
+    margin-bottom: 2rem;
+    transition: .2s all linear;
+    -webkit-transition: .2s all linear;
+    -moz-transition: .2s all linear;
+    -ms-transition: .2s all linear;
+    -o-transition: .2s all linear;
+    border-radius: 0 0 2rem 0;
+    -webkit-border-radius: 0 0 2rem 0;
+    -moz-border-radius: 0 0 2rem 0;
+    -ms-border-radius: 0 0 2rem 0;
+    -o-border-radius: 0 0 2rem 0;
+}
+.pricing-item:hover {
+    transform: scale(1.01);
+    -webkit-transform: scale(1.01);
+    -moz-transform: scale(1.01);
+    -ms-transform: scale(1.01);
+    -o-transform: scale(1.01);
+    box-shadow: 0 1rem 1rem 0 #753a93;
+}
+.pricing-item li{
+    list-style: none;
+}
+.pricing{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 1rem 0;
+    color: darkslategray;
+
+}
+.pricing-kit{
+    background-color: darkslategray;
+    font-size: 1.3rem;
+    color:darksalmon;
+    padding: 0.7rem 1.5rem;
+    border-radius: 0 0 2rem 0;
+    -webkit-border-radius: 0 0 2rem 0;
+    -moz-border-radius: 0 0 2rem 0;
+    -ms-border-radius: 0 0 2rem 0;
+    -o-border-radius: 0 0 2rem 0;
+}
+.pricing-item:hover .pricing{
+    color: darkred;
+    transition: 0.4s linear;
+    -webkit-transition: 0.4s linear;
+    -moz-transition: 0.4s linear;
+    -ms-transition: 0.4s linear;
+    -o-transition: 0.4s linear;
+    font-weight: bold;
+}
+.pricing-item:hover .pricing-kit{
+    box-shadow: 0 0 0  50rem skyblue;
+}
+.pricing-item:hover .order-btn {
+    background-color: darkslategray;
+    color:darksalmon;
+    font-weight: bold;
+    border-color: white;
+}
+.offers li{
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+}
+.order-btn {
+    border: none;
+    border: 2px solid darksalmon;
+    background: transparent;
+    color:darkslategray;
+    cursor: pointer;
+    margin: 2rem;
+    padding: 0.7rem 1rem;
+    border-radius: 2rem;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
+    font-weight: bold;
+}
+.order-btn:hover {
+    background-color: darkslategray;
+    color:darksalmon;
+    font-weight: bold;
+    border-color: white;
+}

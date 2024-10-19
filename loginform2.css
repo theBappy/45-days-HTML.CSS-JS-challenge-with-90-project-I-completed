@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins',sans-serif;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+.form-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   color: white;
+    padding: 5em 2rem;
+    background-color: black;
+    width: 25rem;
+    border: 1px solid cyan;
+    box-shadow: 0 0 20px 0 black;
+}
+.login-title{
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+.username,
+.userpassword{
+    padding: 1rem 2rem;
+    margin: 1rem;
+    text-align: center;
+    font-size: 1rem;
+    border: 1px solid cyan;
+    background: transparent;
+    border-radius: 2rem;;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
+    width: 17rem;
+    height: 3.5rem;
+    outline: none;
+    transition: all .2s ease-in-out;
+}
+
+
+.username:focus,
+.userpassword:focus{
+    width:20rem;
+animation-name: color;
+animation-duration: 10s;
+animation-iteration-count: infinite;
+}
+.loignbtn{
+    border: 2px solid green;
+    border-radius: 2rem;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
+    width: 7rem;
+    height: 2rem;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+}
+.loignbtn:hover {
+    background: green;
+    border: 2px solid green;
+}
+
+
+@keyframes color {
+    0% {
+        color:blue;
+        border-color: blue;
+    }
+    10%{
+        color:aquamarine;
+        border-color: aquamarine;
+    }
+    20%{
+        color:blueviolet;
+        border-color: blueviolet;
+    }
+
+    40%{
+        color: brown;
+        border-color: brown;
+    }
+    60%{
+        color: bisque;
+        border-color: bisque;
+    }
+    80%{color:red;
+    border-color: red;
+    }
+    100%{
+        color: yellow;
+        border-color: yellow;
+    }
+}

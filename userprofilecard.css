@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');\
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    font-family: 'Poppins',sans-serif;
+    align-items: center;
+    padding: 1rem;
+    background-color: rgb(237, 233, 224);
+}
+
+.card-container{
+    background-color: rgb(31, 31, 32);
+    color: white;
+    padding: 2rem;
+    margin: .5rem;
+    width: 20rem;
+    border-radius: .4rem;
+    -webkit-border-radius: .4rem;
+    -moz-border-radius: .4rem;
+    -ms-border-radius: .4rem;
+    -o-border-radius: .4rem;
+}
+.topnav{
+    display: flex;
+    justify-content: space-between;
+}
+.topnav li,
+.topnav ul{
+    list-style: none;
+    font-size: 1.2rem;
+}
+.top ul i {
+    margin-left: 20px;
+}
+.userimg{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    margin: 0 auto;
+}
+.userimg img{
+    position: absolute;
+    top: 0;
+    left:0;
+    width: 100%;
+}
+.username, .aboutuser {
+    text-align: center;
+    margin-top: 1.5rem;
+
+}
+.username{
+    font-size: 1.4rem;
+}
+.hireme {
+    margin: 1.5rem auto;
+    display: block;
+    font-weight: bold;
+    border: none;
+    padding: 0.8rem 1.6rem;
+    border-radius: 2rem;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
+     font-size: 1rem;
+     cursor: pointer;
+ 
+}
+.hireme:hover {
+    background: radial-gradient(circle at 100% 107%, #fdf497 0%, #fdf497 5%#fd5949 45%, #d6249f 60%, #285aeb 90%);
+    background-color: darkslategray;
+    color: white;
+    transition: 0.5s ease-in-out;
+    -webkit-transition: 0.5s ease-in-out;
+    -moz-transition: 0.5s ease-in-out;
+    -ms-transition: 0.5s ease-in-out;
+    -o-transition: 0.5s ease-in-out;
+}
+.socialsite {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.social-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+.social-item li{
+    list-style: none;
+    padding: 0.8rem;
+    border-radius: 15%;
+    -webkit-border-radius: 15%;
+    -moz-border-radius: 15%;
+    -ms-border-radius: 15%;
+    -o-border-radius: 15%;
+}
+.youtube {
+    background-color: #ff0000;
+}
+.twitter {
+    background-color: #1d9bf0;
+}
+.instagram {
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%);}
+
+    .social-item i {
+        font-size: 1.5rem;
+    }
+    .social-item span{
+        margin-top: 0.5rem;
+    }
+    #heart{
+        color: red;
+       
+    }

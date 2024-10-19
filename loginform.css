@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding:0;
+    font-family: 'Poppins',sans-serif;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+.form-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+    width: 25rem;
+    padding: 5em 2rem;
+    border:1px solid black;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    box-shadow: 0px 0px 20px 0px black;
+}
+.logintitle{
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+.userName,
+.userPassword {
+    text-align: center;
+    border: 2px solid cyan;
+    margin: 1rem;
+    color: white;
+    background: transparent;
+    border-radius:3rem;
+    -webkit-border-radius:3rem;
+    -moz-border-radius:3rem;
+    -ms-border-radius:3rem;
+    -o-border-radius:3rem;
+    width: 15rem;
+    height: 2rem;
+    font-size: 1.2rem;
+    outline: none;
+    transition: all 2s ease-in-out;
+    -webkit-transition: all 2s ease-in-out;
+    -moz-transition: all 2s ease-in-out;
+    -ms-transition: all 2s ease-in-out;
+    -o-transition: all 2s ease-in-out;
+}
+@keyframes color {
+    0%{
+        border-color: green;
+        color: green;
+    }
+    10%{
+        border-color:red;
+        color: red;
+    }
+    20%{
+        border-color: violet;
+        color: violet;
+    }
+    30%{
+        border-color: white;
+        color: white;
+    }
+    40%{
+        border-color: purple;
+        color: purple;
+    }
+    50%{
+        border-color: magenta;
+        color: magenta;
+    }
+    60%{
+        border-color: yellow;
+        color: yellow;
+    }
+    70%{
+        border-color: cyan;
+        color: cyan;
+    }
+    80%{
+        border-color: brown;
+        color: brown;
+    }
+    90%{
+        border-color: blue;
+        color: blue;
+    }
+    100%{
+        border-color: darkred;
+        color: darkred;
+    }
+}
+.userName:focus,
+.userPassword:focus{
+    width: 20rem;
+    animation-duration: 10s;
+    animation-name: color;
+    animation-iteration-count: infinite;
+}
+.loginbtn{
+    background: transparent;
+    border: 2px solid green;
+    color:white;
+    padding: 1rem 3rem;
+    border-radius: 6rem;
+    -webkit-border-radius: 6rem;
+    -moz-border-radius: 6rem;
+    -ms-border-radius: 6rem;
+    -o-border-radius: 6rem;
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+}
+.loginbtn:hover {
+    background: green;
+    border: 2px solid green;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Contact Form</title>
+    <link rel="stylesheet" type="text/css" href="Advanced Contact Form.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+<div class="main-confirmation" id="alertBox">
+    <div class="confirmation">
+        <div class="content">
+            <li id="close"><i class="fa-solid fa-xmark"></i></li>
+            <p>Are you sure to fill this form? 
+                After submitting the form you will not be able to edit the form.</p>
+            <button id="confirm" class="confirm">Confirm</button>
+        </div>
+    </div>
+ 
+</div>
+<div class="container">
+    <form id="form">
+        <h2>GET IN TOUCH</h2>
+        <input class="inputField" type="text" id="name" placeholder="Enter Your Name" required>
+        <input class="inputField" type="email" id="email" placeholder="Enter Your Email" required>
+        <input class="inputField" type="tel" id="phone" placeholder=" Enter Your Phone No" required>
+        <input class="inputField" type="text" id="coupon" placeholder="Enter Your Coupon Code" required>
+        <textarea class="inputField" id="message" rows="4" placeholder="Write Something"></textarea>
+        <button type="submit" id="send">Send</button>
+    </form>
+</div>
+
+
+
+
+    
+</body>
+<script src="Advance Contact Form.js"></script>
+</html>

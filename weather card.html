@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" type="text/css" href="weather card.css">
+</head>
+<body>
+    <!----Main Container---->
+    <div class="weatherContainer">
+        <h2 class="appHeading">Weahter App</h2>
+
+
+        <!--------Input division for city name------->
+        <div class="search">
+            <form action="" id="weahterForm">
+                <input type="text" name="" id="weatherInput" placeholder="Enter Your City Here...">
+                <button class="searchBtn" type="submit">
+                    <ul>
+                        <li><i class="fa-solid fa-magnifying-glass"></i></li>
+                    </ul>
+                </button>
+            </form>
+        </div>
+
+
+         <!-- Outut Will show on the screen -->
+    <h2 id="city"></h2>
+    <img src="weathe.jpg" alt="" id="weatherImage">
+    <p class="weatherMain" id="weatherMain"></p>
+    <h2 id="temp"><span class="temp"></span></h2>
+    <div class="todayDates"></div>
+    <div id="todayTime"></div>
+    </div>
+    
+</body>
+<script src="weather card.js"></script>
+</html>
